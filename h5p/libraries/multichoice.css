@@ -1,0 +1,75 @@
+/* H5P MultiChoice Styles */
+.h5p-multichoice-options {
+  margin: 15px 0;
+}
+
+.h5p-multiple-choice-option {
+  margin: 10px 0;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.h5p-multiple-choice-option:hover {
+  background: #f0f8ff;
+  border-color: #007cba;
+}
+
+.h5p-multiple-choice-option.selected {
+  background: #e7f3ff;
+  border-color: #007cba;
+  box-shadow: 0 0 8px rgba(0, 124, 186, 0.3);
+}
+
+.h5p-multiple-choice-option input[type="radio"],
+.h5p-multiple-choice-option input[type="checkbox"] {
+  margin-right: 12px;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.h5p-multiple-choice-option.correct {
+  background: #d4edda;
+  border-color: #28a745;
+}
+
+.h5p-multiple-choice-option.incorrect {
+  background: #f8d7da;
+  border-color: #dc3545;
+}
+
+.h5p-multichoice-feedback {
+  margin: 15px 0;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.h5p-multichoice-correct {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.h5p-multichoice-incorrect {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .h5p-multiple-choice-option {
+    padding: 10px;
+  }
+  
+  .h5p-multiple-choice-option input[type="radio"],
+  .h5p-multiple-choice-option input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 8px;
+  }
+}

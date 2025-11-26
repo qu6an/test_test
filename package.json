@@ -1,0 +1,21 @@
+{
+  "name": "h5p-starter-kit",
+  "version": "1.0.0",
+  "description": "A starter kit for H5P content types",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -c-1 -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "h5p",
+    "education",
+    "interactive",
+    "content"
+  ],
+  "author": "H5P Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

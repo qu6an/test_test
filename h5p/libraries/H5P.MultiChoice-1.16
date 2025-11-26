@@ -1,0 +1,41 @@
+{
+  "title": "Multiple Choice Question",
+  "majorVersion": 1,
+  "minorVersion": 16,
+  "patchVersion": 4,
+  "runnable": 1,
+  "machineName": "H5P.MultiChoice",
+  "author": "Joubel",
+  "license": "MIT",
+  "description": "Creates multiple choice questions. The users can choose one or multiple answers depending on the settings.",
+  "preloadedJs": [
+    {"path": "multichoice.js"}
+  ],
+  "preloadedCss": [
+    {"path": "multichoice.css"}
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.ShowWhen",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
+      "machineName": "H5PEditor.RangeList",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
+      "machineName": "H5PEditor.ColorSelector",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.Question",
+      "majorVersion": 1,
+      "minorVersion": 4
+    }
+  ]
+}
